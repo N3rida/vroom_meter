@@ -51,9 +51,6 @@ PCB à réalisé, 4 cartes (prix à voir) :
   - Accéléromètre --> en cours
   - Carte mère --> A jour
 
-     __|____|__   __|____|__   __|____|__ 
-      |||  |||     |||  |||     |||  ||| 
-  ¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯
 Voir pour un boitier (3D ?/"fait main"?) (prix à voir)
 
 --> Commande Digikey : 46.7€ (Seulement modules+antenne - FDP offert à 50€)
