@@ -19,11 +19,11 @@ L'ensemble des manipulations de données seront fais "à la main".
 
 Questions:
  - Quelle puce choisir ? Antenne ? 
-    - Puce: ublox NEO-M8Q-(01A)
-    - Antenne active cf. Max
+    - Puce: ublox NEO-M8Q-(01A) (21.45€ - Digikey.fr)
+    - Antenne active : ANT-GNRM-L1A (12.63€ - Digikey.fr)
  - Quel dispositf porteur choisir (Ordinateur, téléphone, ...) ?
-    - Pour ce prototype le but n'est pas d'implémenter tout sur l'esp seulement
-      de tester le post traitement des données.
+    - Pour ce prototype le but n'est pas d'implémenter tout sur l'esp (ESP-WROOM-32UE DEVKIT - 8.58€ - Digikey.fr)
+      seulement de tester le post traitement des données.
  - Comment mettre en place le rtk ?
     - RTK lib sur le pc dans un script C
 
@@ -39,3 +39,30 @@ logiciel.
 Objectifs:
  - Automatisation de la configuration. 
  - Mise en place d'une procédure de mesure.
+
+----------
+## Prototype numéro 2(suite)/3 ?
+
+Ajout d'un IMU 6 axes (Accéléromère 3 axes et gyroscope 3 axes  
+  - ICM-42688-P (4.04€ - Digikey.fr)
+PCB à réalisé, 4 cartes (prix à voir) :
+  - NEO-M8Q-01A --> fait
+  - ESP32/µSD_SLOT --> en attente
+  - Accéléromètre --> en cours
+  - Carte mère --> A jour
+
+     __|____|__   __|____|__   __|____|__ 
+      |||  |||     |||  |||     |||  ||| 
+  ¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯
+Voir pour un boitier (3D ?/"fait main"?) (prix à voir)
+
+--> Commande Digikey : 46.7€ (Seulement modules+antenne - FDP offert à 50€)
+
+
+
+
+
+
+
+
+
