@@ -48,6 +48,14 @@ Ajout d'un IMU 6 axes (Accéléromère 3 axes et gyroscope 3 axes
 PCB à réalisé, 4 cartes (prix à voir) :
   - NEO-M8Q-01A --> fait
   - ESP32/µSD_SLOT --> en attente
+      -> /!\ les pins "GPIO12" et "GPIO15" sont pas utilisé pour le SPI#1
+      Nouveaux pins :
+        HSPI_MOSI : GPIO22
+        HSPI_SS : GPIO21
+        Code pour le déclarer (je vais vérifier en rentrant):
+          Setup()
+            SPI_SD(HSPI);
+            SPI_SD.begin(14,13,22,21); //SCK,MOSI,MISO,CS(SS sur le pinout)
   - Accéléromètre --> en cours
   - Carte mère --> A jour
 
